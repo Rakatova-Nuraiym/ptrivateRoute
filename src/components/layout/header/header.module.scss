@@ -1,0 +1,58 @@
+.Header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  box-shadow: 0 0 10px 0 black;
+  background-color: #d4145ab4;
+  backdrop-filter: blur(1px);
+  .content {
+    padding-block: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 100%;
+        max-width: 100px;
+        height: auto;
+      }
+    }
+
+    nav {
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        li {
+          a {
+            font-size: 40px;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  button{
+    width: 70px;
+    background: rgb(112, 112, 202);
+    border: none;
+    height: 25px;
+    border-radius: 20px;
+  }
+  .link {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    a {
+      font-size: 20px;
+      color: white;
+    }
+  }
+}
